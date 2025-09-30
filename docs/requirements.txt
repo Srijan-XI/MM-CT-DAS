@@ -1,0 +1,44 @@
+# =============================================================================
+# Cybersecurity Detection System - Requirements
+# =============================================================================
+
+# Cybersecurity & Network Analysis
+scapy
+pyshark
+pydivert
+yara-python
+pywin32
+
+
+# Machine Learning & AI
+scikit-learn
+torch
+onnxruntime
+transformers
+diffusers
+
+# Web Framework & API
+fastapi
+uvicorn
+flask
+
+# Dashboard & Visualization
+streamlit
+dash
+
+# Data Processing & Utilities
+pandas
+numpy
+joblib
+requests
+python-magic
+psutil
+
+# Additional ML Libraries for Training
+xgboost
+aiosqlite
+plotly
+aiosqlite
+
+# Additional Dependencies
+plotly

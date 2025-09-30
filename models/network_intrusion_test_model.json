@@ -1,0 +1,819 @@
+{
+  "model_name": "network_intrusion_test",
+  "description": "Network Intrusion Detection - Testing",
+  "rules": [
+    {
+      "feature_index": 0,
+      "feature_name": "duration",
+      "threshold": 380.12708333333336,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 380.12708333333336,
+      "median": 0
+    },
+    {
+      "feature_index": 0,
+      "feature_name": "duration",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 380.12708333333336,
+      "median": 0
+    },
+    {
+      "feature_index": 0,
+      "feature_name": "duration",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 380.12708333333336,
+      "median": 0
+    },
+    {
+      "feature_index": 1,
+      "feature_name": "protocol_type",
+      "threshold": 3334.445833333333,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 3334.445833333333,
+      "median": 3075
+    },
+    {
+      "feature_index": 1,
+      "feature_name": "protocol_type",
+      "threshold": 3075,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 3334.445833333333,
+      "median": 3075
+    },
+    {
+      "feature_index": 1,
+      "feature_name": "protocol_type",
+      "threshold": 3075,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 3334.445833333333,
+      "median": 3075
+    },
+    {
+      "feature_index": 2,
+      "feature_name": "service",
+      "threshold": 2422.3541666666665,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 2422.3541666666665,
+      "median": 1529
+    },
+    {
+      "feature_index": 3,
+      "feature_name": "flag",
+      "threshold": 6679.535416666667,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 6679.535416666667,
+      "median": 8684
+    },
+    {
+      "feature_index": 4,
+      "feature_name": "src_bytes",
+      "threshold": 4366.247916666666,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 4366.247916666666,
+      "median": 52
+    },
+    {
+      "feature_index": 4,
+      "feature_name": "src_bytes",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 4366.247916666666,
+      "median": 52
+    },
+    {
+      "feature_index": 4,
+      "feature_name": "src_bytes",
+      "threshold": 279,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 4366.247916666666,
+      "median": 52
+    },
+    {
+      "feature_index": 5,
+      "feature_name": "dst_bytes",
+      "threshold": 4720.43125,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 4720.43125,
+      "median": 45
+    },
+    {
+      "feature_index": 5,
+      "feature_name": "dst_bytes",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 4720.43125,
+      "median": 45
+    },
+    {
+      "feature_index": 5,
+      "feature_name": "dst_bytes",
+      "threshold": 771,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 4720.43125,
+      "median": 45
+    },
+    {
+      "feature_index": 6,
+      "feature_name": "land",
+      "threshold": 0.0,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.0,
+      "median": 0
+    },
+    {
+      "feature_index": 7,
+      "feature_name": "wrong_fragment",
+      "threshold": 0.010416666666666666,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 0.010416666666666666,
+      "median": 0
+    },
+    {
+      "feature_index": 8,
+      "feature_name": "urgent",
+      "threshold": 0.0,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 0.0,
+      "median": 0
+    },
+    {
+      "feature_index": 9,
+      "feature_name": "hot",
+      "threshold": 0.09375,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.09375,
+      "median": 0
+    },
+    {
+      "feature_index": 10,
+      "feature_name": "num_failed_logins",
+      "threshold": 0.022916666666666665,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.022916666666666665,
+      "median": 0
+    },
+    {
+      "feature_index": 11,
+      "feature_name": "logged_in",
+      "threshold": 0.42916666666666664,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 0.42916666666666664,
+      "median": 0
+    },
+    {
+      "feature_index": 12,
+      "feature_name": "num_compromised",
+      "threshold": 1.2895833333333333,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 1.2895833333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 13,
+      "feature_name": "root_shell",
+      "threshold": 0.004166666666666667,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.004166666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 14,
+      "feature_name": "su_attempted",
+      "threshold": 0.004166666666666667,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.004166666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 15,
+      "feature_name": "num_root",
+      "threshold": 1.4270833333333333,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 1.4270833333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 16,
+      "feature_name": "num_file_creations",
+      "threshold": 0.0125,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 0.0125,
+      "median": 0
+    },
+    {
+      "feature_index": 17,
+      "feature_name": "num_shells",
+      "threshold": 0.0020833333333333333,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.0020833333333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 18,
+      "feature_name": "num_access_files",
+      "threshold": 0.008333333333333333,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.008333333333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 19,
+      "feature_name": "num_outbound_cmds",
+      "threshold": 0.0,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.0,
+      "median": 0
+    },
+    {
+      "feature_index": 20,
+      "feature_name": "is_host_login",
+      "threshold": 0.0,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 0.0,
+      "median": 0
+    },
+    {
+      "feature_index": 21,
+      "feature_name": "is_guest_login",
+      "threshold": 0.025,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 0.025,
+      "median": 0
+    },
+    {
+      "feature_index": 22,
+      "feature_name": "count",
+      "threshold": 85.3875,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 85.3875,
+      "median": 9
+    },
+    {
+      "feature_index": 22,
+      "feature_name": "count",
+      "threshold": 1,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 85.3875,
+      "median": 9
+    },
+    {
+      "feature_index": 22,
+      "feature_name": "count",
+      "threshold": 139,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 85.3875,
+      "median": 9
+    },
+    {
+      "feature_index": 23,
+      "feature_name": "srv_count",
+      "threshold": 34.7125,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 34.7125,
+      "median": 6
+    },
+    {
+      "feature_index": 23,
+      "feature_name": "srv_count",
+      "threshold": 2,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 34.7125,
+      "median": 6
+    },
+    {
+      "feature_index": 23,
+      "feature_name": "srv_count",
+      "threshold": 17,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 34.7125,
+      "median": 6
+    },
+    {
+      "feature_index": 24,
+      "feature_name": "serror_rate",
+      "threshold": 0.10070833333333334,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10070833333333334,
+      "median": 0
+    },
+    {
+      "feature_index": 24,
+      "feature_name": "serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10070833333333334,
+      "median": 0
+    },
+    {
+      "feature_index": 24,
+      "feature_name": "serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10070833333333334,
+      "median": 0
+    },
+    {
+      "feature_index": 25,
+      "feature_name": "srv_serror_rate",
+      "threshold": 0.09791666666666667,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.09791666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 25,
+      "feature_name": "srv_serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.09791666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 25,
+      "feature_name": "srv_serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.09791666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 26,
+      "feature_name": "rerror_rate",
+      "threshold": 0.24302083333333335,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.24302083333333335,
+      "median": 0
+    },
+    {
+      "feature_index": 26,
+      "feature_name": "rerror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.24302083333333335,
+      "median": 0
+    },
+    {
+      "feature_index": 26,
+      "feature_name": "rerror_rate",
+      "threshold": 0.5,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 0.24302083333333335,
+      "median": 0
+    },
+    {
+      "feature_index": 27,
+      "feature_name": "srv_rerror_rate",
+      "threshold": 0.24597916666666667,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.24597916666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 27,
+      "feature_name": "srv_rerror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.24597916666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 27,
+      "feature_name": "srv_rerror_rate",
+      "threshold": 0.44,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 0.24597916666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 28,
+      "feature_name": "same_srv_rate",
+      "threshold": 0.7382083333333334,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.7382083333333334,
+      "median": 1
+    },
+    {
+      "feature_index": 28,
+      "feature_name": "same_srv_rate",
+      "threshold": 0.18,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.7382083333333334,
+      "median": 1
+    },
+    {
+      "feature_index": 28,
+      "feature_name": "same_srv_rate",
+      "threshold": 1,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 0.7382083333333334,
+      "median": 1
+    },
+    {
+      "feature_index": 29,
+      "feature_name": "diff_srv_rate",
+      "threshold": 0.08175,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.08175,
+      "median": 0
+    },
+    {
+      "feature_index": 29,
+      "feature_name": "diff_srv_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.08175,
+      "median": 0
+    },
+    {
+      "feature_index": 29,
+      "feature_name": "diff_srv_rate",
+      "threshold": 0.06,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.08175,
+      "median": 0
+    },
+    {
+      "feature_index": 30,
+      "feature_name": "srv_diff_host_rate",
+      "threshold": 0.10895833333333332,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10895833333333332,
+      "median": 0
+    },
+    {
+      "feature_index": 30,
+      "feature_name": "srv_diff_host_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10895833333333332,
+      "median": 0
+    },
+    {
+      "feature_index": 30,
+      "feature_name": "srv_diff_host_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10895833333333332,
+      "median": 0
+    },
+    {
+      "feature_index": 31,
+      "feature_name": "dst_host_count",
+      "threshold": 194.275,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 194.275,
+      "median": 255
+    },
+    {
+      "feature_index": 31,
+      "feature_name": "dst_host_count",
+      "threshold": 138,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 194.275,
+      "median": 255
+    },
+    {
+      "feature_index": 31,
+      "feature_name": "dst_host_count",
+      "threshold": 255,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 194.275,
+      "median": 255
+    },
+    {
+      "feature_index": 32,
+      "feature_name": "dst_host_srv_count",
+      "threshold": 137.79583333333332,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 137.79583333333332,
+      "median": 151
+    },
+    {
+      "feature_index": 32,
+      "feature_name": "dst_host_srv_count",
+      "threshold": 13,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 137.79583333333332,
+      "median": 151
+    },
+    {
+      "feature_index": 32,
+      "feature_name": "dst_host_srv_count",
+      "threshold": 255,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 137.79583333333332,
+      "median": 151
+    },
+    {
+      "feature_index": 33,
+      "feature_name": "dst_host_same_srv_rate",
+      "threshold": 0.5911041666666667,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.5911041666666667,
+      "median": 0.88
+    },
+    {
+      "feature_index": 33,
+      "feature_name": "dst_host_same_srv_rate",
+      "threshold": 0.06,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.5911041666666667,
+      "median": 0.88
+    },
+    {
+      "feature_index": 33,
+      "feature_name": "dst_host_same_srv_rate",
+      "threshold": 1,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 0.5911041666666667,
+      "median": 0.88
+    },
+    {
+      "feature_index": 34,
+      "feature_name": "dst_host_diff_srv_rate",
+      "threshold": 0.08991666666666666,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.08991666666666666,
+      "median": 0.02
+    },
+    {
+      "feature_index": 34,
+      "feature_name": "dst_host_diff_srv_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.08991666666666666,
+      "median": 0.02
+    },
+    {
+      "feature_index": 34,
+      "feature_name": "dst_host_diff_srv_rate",
+      "threshold": 0.07,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.08991666666666666,
+      "median": 0.02
+    },
+    {
+      "feature_index": 35,
+      "feature_name": "dst_host_same_src_port_rate",
+      "threshold": 0.12414583333333333,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.12414583333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 35,
+      "feature_name": "dst_host_same_src_port_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.12414583333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 35,
+      "feature_name": "dst_host_same_src_port_rate",
+      "threshold": 0.02,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.12414583333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 36,
+      "feature_name": "dst_host_srv_diff_host_rate",
+      "threshold": 0.017291666666666667,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.017291666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 36,
+      "feature_name": "dst_host_srv_diff_host_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.017291666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 36,
+      "feature_name": "dst_host_srv_diff_host_rate",
+      "threshold": 0.01,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.017291666666666667,
+      "median": 0
+    },
+    {
+      "feature_index": 37,
+      "feature_name": "dst_host_serror_rate",
+      "threshold": 0.09820833333333333,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.09820833333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 37,
+      "feature_name": "dst_host_serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.09820833333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 37,
+      "feature_name": "dst_host_serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.09820833333333333,
+      "median": 0
+    },
+    {
+      "feature_index": 38,
+      "feature_name": "dst_host_srv_serror_rate",
+      "threshold": 0.10260416666666666,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10260416666666666,
+      "median": 0
+    },
+    {
+      "feature_index": 38,
+      "feature_name": "dst_host_srv_serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10260416666666666,
+      "median": 0
+    },
+    {
+      "feature_index": 38,
+      "feature_name": "dst_host_srv_serror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.10260416666666666,
+      "median": 0
+    },
+    {
+      "feature_index": 39,
+      "feature_name": "dst_host_rerror_rate",
+      "threshold": 0.24485416666666665,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.24485416666666665,
+      "median": 0
+    },
+    {
+      "feature_index": 39,
+      "feature_name": "dst_host_rerror_rate",
+      "threshold": 0,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 0.24485416666666665,
+      "median": 0
+    },
+    {
+      "feature_index": 39,
+      "feature_name": "dst_host_rerror_rate",
+      "threshold": 0.4,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 0.24485416666666665,
+      "median": 0
+    }
+  ],
+  "feature_names": [
+    "duration",
+    "protocol_type",
+    "service",
+    "flag",
+    "src_bytes",
+    "dst_bytes",
+    "land",
+    "wrong_fragment",
+    "urgent",
+    "hot",
+    "num_failed_logins",
+    "logged_in",
+    "num_compromised",
+    "root_shell",
+    "su_attempted",
+    "num_root",
+    "num_file_creations",
+    "num_shells",
+    "num_access_files",
+    "num_outbound_cmds",
+    "is_host_login",
+    "is_guest_login",
+    "count",
+    "srv_count",
+    "serror_rate",
+    "srv_serror_rate",
+    "rerror_rate",
+    "srv_rerror_rate",
+    "same_srv_rate",
+    "diff_srv_rate",
+    "srv_diff_host_rate",
+    "dst_host_count",
+    "dst_host_srv_count",
+    "dst_host_same_srv_rate",
+    "dst_host_diff_srv_rate",
+    "dst_host_same_src_port_rate",
+    "dst_host_srv_diff_host_rate",
+    "dst_host_serror_rate",
+    "dst_host_srv_serror_rate",
+    "dst_host_rerror_rate"
+  ],
+  "accuracy": 0.35,
+  "precision": 0.35,
+  "recall": 1.0,
+  "f1_score": 0.5185185185185185,
+  "dataset_info": {
+    "dataset": "network_intrusion_test",
+    "samples": 480,
+    "features": 40
+  },
+  "confusion_matrix": {
+    "tp": 42,
+    "fp": 78,
+    "tn": 0,
+    "fn": 0
+  }
+}

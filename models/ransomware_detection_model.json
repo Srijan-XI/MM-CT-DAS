@@ -1,0 +1,225 @@
+{
+  "model_name": "ransomware_detection",
+  "description": "Ransomware Detection",
+  "rules": [
+    {
+      "feature_index": 0,
+      "feature_name": "Time",
+      "threshold": 29.483333333333334,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 29.483333333333334,
+      "median": 30
+    },
+    {
+      "feature_index": 0,
+      "feature_name": "Time",
+      "threshold": 14,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 29.483333333333334,
+      "median": 30
+    },
+    {
+      "feature_index": 0,
+      "feature_name": "Time",
+      "threshold": 44,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 29.483333333333334,
+      "median": 30
+    },
+    {
+      "feature_index": 1,
+      "feature_name": "Protcol",
+      "threshold": 8703.0,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 8703.0,
+      "median": 8703
+    },
+    {
+      "feature_index": 2,
+      "feature_name": "Flag",
+      "threshold": 7095.166666666667,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 7095.166666666667,
+      "median": 7141
+    },
+    {
+      "feature_index": 3,
+      "feature_name": "Family",
+      "threshold": 4010.454166666667,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 4010.454166666667,
+      "median": 3388
+    },
+    {
+      "feature_index": 4,
+      "feature_name": "Clusters",
+      "threshold": 1.0,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 1.0,
+      "median": 1
+    },
+    {
+      "feature_index": 5,
+      "feature_name": "SeddAddress",
+      "threshold": 1123.0,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 1123.0,
+      "median": 1123
+    },
+    {
+      "feature_index": 6,
+      "feature_name": "ExpAddress",
+      "threshold": 1138.0,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 1138.0,
+      "median": 1138
+    },
+    {
+      "feature_index": 7,
+      "feature_name": "BTC",
+      "threshold": 7.402083333333334,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 7.402083333333334,
+      "median": 8
+    },
+    {
+      "feature_index": 8,
+      "feature_name": "USD",
+      "threshold": 7882.116666666667,
+      "prediction": 1,
+      "importance": 1.0,
+      "mean": 7882.116666666667,
+      "median": 1200
+    },
+    {
+      "feature_index": 9,
+      "feature_name": "Netflow_Bytes",
+      "threshold": 526.7,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 526.7,
+      "median": 461
+    },
+    {
+      "feature_index": 9,
+      "feature_name": "Netflow_Bytes",
+      "threshold": 113,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 526.7,
+      "median": 461
+    },
+    {
+      "feature_index": 9,
+      "feature_name": "Netflow_Bytes",
+      "threshold": 917,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 526.7,
+      "median": 461
+    },
+    {
+      "feature_index": 10,
+      "feature_name": "IPaddress",
+      "threshold": 5974.6125,
+      "prediction": 0,
+      "importance": 1.0,
+      "mean": 5974.6125,
+      "median": 6891
+    },
+    {
+      "feature_index": 11,
+      "feature_name": "Threats",
+      "threshold": 2947.65,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 2947.65,
+      "median": 1871
+    },
+    {
+      "feature_index": 11,
+      "feature_name": "Threats",
+      "threshold": 1871,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 2947.65,
+      "median": 1871
+    },
+    {
+      "feature_index": 11,
+      "feature_name": "Threats",
+      "threshold": 6107,
+      "prediction": 0,
+      "importance": 2.0,
+      "mean": 2947.65,
+      "median": 1871
+    },
+    {
+      "feature_index": 12,
+      "feature_name": "Port",
+      "threshold": 5066.241666666667,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 5066.241666666667,
+      "median": 5068
+    },
+    {
+      "feature_index": 12,
+      "feature_name": "Port",
+      "threshold": 5066,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 5066.241666666667,
+      "median": 5068
+    },
+    {
+      "feature_index": 12,
+      "feature_name": "Port",
+      "threshold": 5068,
+      "prediction": 1,
+      "importance": 2.0,
+      "mean": 5066.241666666667,
+      "median": 5068
+    }
+  ],
+  "feature_names": [
+    "Time",
+    "Protcol",
+    "Flag",
+    "Family",
+    "Clusters",
+    "SeddAddress",
+    "ExpAddress",
+    "BTC",
+    "USD",
+    "Netflow_Bytes",
+    "IPaddress",
+    "Threats",
+    "Port"
+  ],
+  "accuracy": 0.5,
+  "precision": 1.0,
+  "recall": 0.5,
+  "f1_score": 0.6666666666666666,
+  "dataset_info": {
+    "dataset": "ransomware_detection",
+    "samples": 480,
+    "features": 13
+  },
+  "confusion_matrix": {
+    "tp": 60,
+    "fp": 0,
+    "tn": 0,
+    "fn": 60
+  }
+}
