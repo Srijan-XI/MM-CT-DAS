@@ -1,0 +1,42 @@
+{
+  "total_datasets": 5,
+  "successful_trainings": 5,
+  "failed_trainings": 0,
+  "models": {
+    "cyber_threat_detection": {
+      "accuracy": 0.48333333333333334,
+      "precision": 0.4942528735632184,
+      "recall": 0.7049180327868853,
+      "f1_score": 0.581081081081081,
+      "description": "Cyber Threat Detection Dataset"
+    },
+    "network_intrusion_train": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "description": "Network Intrusion Detection - Training"
+    },
+    "network_intrusion_test": {
+      "accuracy": 0.35,
+      "precision": 0.35,
+      "recall": 1.0,
+      "f1_score": 0.5185185185185185,
+      "description": "Network Intrusion Detection - Testing"
+    },
+    "malware_detection": {
+      "accuracy": 0.325,
+      "precision": 1.0,
+      "recall": 0.325,
+      "f1_score": 0.4905660377358491,
+      "description": "Malware Attack Detection"
+    },
+    "ransomware_detection": {
+      "accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1_score": 0.6666666666666666,
+      "description": "Ransomware Detection"
+    }
+  }
+}

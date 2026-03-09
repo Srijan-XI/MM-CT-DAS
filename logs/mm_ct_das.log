@@ -1,0 +1,33 @@
+2025-12-25 01:21:12,572 - __main__ - INFO - Starting MM-CT-DAS System...
+2025-12-25 01:21:12,583 - src.core.config_loader - INFO - Configuration loaded from: config\system_config.yaml
+2025-12-25 01:21:12,583 - src.core.system_manager - INFO - All system components initialized successfully
+2025-12-25 01:21:12,583 - src.core.system_manager - INFO - Starting system services...
+2025-12-25 01:21:12,629 - src.core.database_manager - INFO - Database initialized: data/threats.db
+2025-12-25 01:21:12,629 - src.core.system_manager - INFO - Started database service
+2025-12-25 01:21:12,629 - src.detection.ml_engine - INFO - Starting ML Engine...
+2025-12-25 01:21:12,631 - src.detection.ml_engine - ERROR - Error loading JSON model cyber_threat_detection_model: 'MLEngine' object has no attribute 'feature_names'
+2025-12-25 01:21:12,631 - src.detection.ml_engine - ERROR - Error loading JSON model malware_detection_model: 'MLEngine' object has no attribute 'feature_names'
+2025-12-25 01:21:12,632 - src.detection.ml_engine - ERROR - Error loading JSON model network_intrusion_test_model: 'MLEngine' object has no attribute 'feature_names'
+2025-12-25 01:21:12,633 - src.detection.ml_engine - ERROR - Error loading JSON model network_intrusion_train_model: 'MLEngine' object has no attribute 'feature_names'
+2025-12-25 01:21:12,634 - src.detection.ml_engine - ERROR - Error loading JSON model ransomware_detection_model: 'MLEngine' object has no attribute 'feature_names'
+2025-12-25 01:21:12,634 - src.detection.ml_engine - INFO - ML Engine started successfully
+2025-12-25 01:21:12,635 - src.core.system_manager - INFO - Started ml_engine service
+2025-12-25 01:21:12,635 - src.detection.threat_detector - INFO - Starting Threat Detector...
+2025-12-25 01:21:12,635 - src.detection.threat_detector - WARNING - No YARA rule files found
+2025-12-25 01:21:12,655 - src.detection.threat_detector - INFO - Created and loaded default YARA rules
+2025-12-25 01:21:12,656 - src.detection.threat_detector - INFO - Threat Detector started successfully
+2025-12-25 01:21:12,656 - src.core.system_manager - INFO - Started threat_detector service
+2025-12-25 01:21:12,657 - src.response.response_manager - INFO - Starting Response Manager...
+2025-12-25 01:21:12,657 - src.response.response_manager - INFO - Loaded blocked IPs from database
+2025-12-25 01:21:12,657 - src.response.response_manager - INFO - Response Manager started successfully
+2025-12-25 01:21:12,657 - src.core.system_manager - INFO - Started response service
+2025-12-25 01:21:12,658 - src.core.network_monitor - INFO - Starting network monitor on interface: auto
+2025-12-25 01:21:13,357 - src.core.network_monitor - ERROR - Error in packet capture: This event loop is already running
+2025-12-25 01:21:13,357 - src.core.network_monitor - INFO - Network monitor started successfully
+2025-12-25 01:21:13,358 - src.core.system_manager - INFO - Started network service
+2025-12-25 01:21:13,358 - src.dashboard.dashboard_server - INFO - Starting Dashboard Server on localhost:8501
+2025-12-25 01:21:13,359 - src.dashboard.dashboard_server - INFO - Dashboard would start here
+2025-12-25 01:21:13,359 - src.dashboard.dashboard_server - INFO - Dashboard Server started successfully
+2025-12-25 01:21:13,359 - src.core.system_manager - INFO - Started dashboard service
+2025-12-25 01:21:13,359 - src.core.system_manager - INFO - All services started successfully
+2025-12-25 01:21:13,359 - __main__ - INFO - MM-CT-DAS System started successfully!
